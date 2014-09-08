@@ -2,8 +2,6 @@
 title: Maxence Vinckevleugel Website
 email: maxence.vinckevleugel@gmail.com
 description: "Personal Website"
-baseurl: ""
-url: "http://yourdomain.com"
 
 # Build settings
 markdown: kramdown
