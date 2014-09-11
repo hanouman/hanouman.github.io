@@ -917,23 +917,23 @@ p.shell-screenshot img {
 
 @-webkit-keyframes track2 {
     0%   {
-			right:57%;
+			right:54%;
 			top:0%;
 			-webkit-transform: rotate(19deg);
 			}
 		25% {
 			top:0%;
-			right:61%;
+			right:58%;
 			-webkit-transform: rotate(22deg);
 			}
     50%  {
 			top:0%;
-			right:65%;
+			right:63%;
 			-webkit-transform: rotate(26deg);
 			}
     100%  {
-			top:0%;
-			right:70%;
+			top:-2%;
+			right:68%;
 			-webkit-transform: rotate(30deg);
 			}
 }
@@ -962,15 +962,47 @@ p.shell-screenshot img {
 }
 
 @-moz-keyframes track2 {
-		0%   {-moz-transform: rotate(19deg);}
-		25%  {-moz-transform: rotate(26deg);}
-		50%  {-moz-transform: rotate(30deg);}
-		100% {-moz-transform: rotate(36deg);}
+		0%   {
+			right:54%;
+			top:0%;
+			-moz-transform: rotate(19deg);
+			}
+		25% {
+			top:0%;
+			right:58%;
+			-moz-transform: rotate(22deg);
+			}
+		50%  {
+			top:0%;
+			right:63%;
+			-moz-transform: rotate(26deg);
+			}
+		100%  {
+			top:-2%;
+			right:68%;
+			-moz-transform: rotate(30deg);
+			}
 }
 
 @-moz-keyframes track1 {
-		0%   {-moz-transform: rotate(36deg);}
-		25%  {-moz-transform: rotate(30deg);}
-		50%  {-moz-transform: rotate(26deg);}
-		100% {-moz-transform: rotate(14deg);}
+		0%   {
+			top:0%;
+			right:72%;
+			-moz-transform: rotate(30deg);
+			}
+		25%  {
+			top:0%;
+			right:67%;
+			-moz-transform: rotate(26deg);
+			}
+		50%  {
+			top:0%;
+			right:63%;
+			-moz-transform: rotate(22deg);
+			}
+		100% {
+			right:50%;
+			top:0%;
+			-moz-transform: rotate(14deg);
+			}
 }
